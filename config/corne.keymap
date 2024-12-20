@@ -29,8 +29,8 @@
 //                    | CTRL| LWR | SHFT|   | ENT | RSE  | DEL |
                         bindings = <
     &kp ESC   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
-    &kp CAPS &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp ENTER &kp ENTER
-    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp BSPC
+    &kp C_BRI_UP &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp ENTER &kp C_VOL_UP
+    &kp C_BRI_DN &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp BSPC &kp C_VOL_DN
                   &mt LCTRL ESC &lt 1 SPACE &kp LSHFT   &mt LALT TAB &lt 2 SPACE &mt LGUI DEL
                         >;
                 };
@@ -43,8 +43,8 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB    &kp N7  &kp N8  &kp N9  &kp DOT  &kp PLUS         &kp ASTRK   &kp DLLR   &kp COLON &kp PIPE  &trans &kp BSPC
-   &kp C_BRI_UP &kp N4  &kp N5  &kp N6  &kp N0   &kp MINUS        &kp SLASH   &kp HASH   &kp LBRC  &kp RBRC  &kp SEMI &kp C_VOL_UP
+   &kp TAB    &kp N7  &kp N8  &kp N9  &kp DOT  &kp PLUS         &kp ASTRK   &kp DLLR   &kp COLON &kp PIPE  &kp GRAVE &kp BSPC
+   &kp C_BRI_UP &kp N4  &kp N5  &kp N6  &kp N0   &kp MINUS        &kp SLASH   &kp HASH   &kp LBRC  &kp RBRC  &trans    &kp C_VOL_UP
    &kp C_BRI_DN  &kp N1  &kp N2  &kp N3  &trans   &kp EQUAL        &kp BSLH       &kp AMPS   &kp LT    &kp GT    &kp SQT    &kp C_VOL_DN
                       &kp LGUI  &trans  &kp SPACE      &kp RET  &trans  &kp RALT
                         >;
@@ -58,10 +58,10 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &kp TILDE &kp PRCNT &kp UNDER  &kp CARET  &kp PLUS      &kp CARET  &kp AMPS  &kp ASTRK &kp LPAR  &kp RPAR &kp BSPC
-   &kp LCTRL &kp AT    &kp DQT   &kp EXCL   &kp QMARK  &kp MINUS     &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT &kp BSLH &kp GRAVE
-   &trans    &kp LBKT  &kp RBKT  &kp LPAR   &kp RPAR   &kp EQUAL     &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE &kp TILDE
-                                      &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+   &kp  TAB  &kp TILDE &kp PRCNT &kp UNDER  &kp CARET  &kp PLUS      &kp CARET  &kp AMPS  &kp UP &kp LPAR  &kp RPAR &kp BSPC
+   &kp LCTRL &kp AT    &kp DQT   &kp EXCL   &kp QMARK  &kp MINUS     &kp SLASH   &kp LEFT  &kp DOWN    &kp RIGHT &kp BSLH &kp GRAVE
+   &trans    &kp LBKT  &kp RBKT  &kp LPAR   &kp RPAR   &kp EQUAL     &kp BSLH  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE &kp TILDE
+                                      &kp LGUI &kp CAPS   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
         };
