@@ -13,5 +13,6 @@ manifest:
       import: app/west.yml
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+      revision: main
   self:
     path: config
