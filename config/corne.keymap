@@ -60,7 +60,7 @@
                         bindings = <
    &kp  TAB  &kp TILDE &kp PRCNT &kp UNDER  &kp CARET  &kp PLUS      &kp CARET  &kp AMPS  &kp UP &kp LPAR  &kp RPAR &kp BSPC
    &kp LCTRL &kp AT    &kp DQT   &kp EXCL   &kp QMARK  &kp MINUS     &kp SLASH   &kp LEFT  &kp DOWN    &kp RIGHT &kp BSLH &kp GRAVE
-   &trans    &kp LBKT  &kp RBKT  &kp LPAR   &kp RPAR   &kp EQUAL     &kp BSLH  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE &kp TILDE
+   &BT_CLR_ALL    &kp LBKT  &kp RBKT  &kp LPAR   &kp RPAR   &kp EQUAL     &kp BSLH  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE &kp TILDE
                                       &kp LGUI &kp CAPS   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
